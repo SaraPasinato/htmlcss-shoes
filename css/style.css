@@ -32,7 +32,18 @@
 .container .box img{
     width: 80%;
 }
+.container.yellow h1{
+    color:green;
+}
+
 /* background colors*/
-.container.blue{
-    background-color: blue;
+.container.red{
+    background-color: red;
+}
+.container.green{
+    background-color: green;
+}
+.container.yellow{
+    background-color: yellow;
+    
 }
