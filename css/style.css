@@ -3,31 +3,33 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Rubik Mono One', sans-serif;
-    scroll-behavior: smooth;
+    font-family: 'Rubik Mono One', sans-serif; 
 }
 
+html{
+    scroll-behavior: smooth;
+}
 .container{
     height: 100vh;
     width: 100%;
     position: relative;
 }
 /* nav */
-#main-header{
+#main-nav{
     z-index: 1;
     position: fixed;
     right:0;
     top:0;
 }
 
-#main-header ul li{
+#main-nav ul li{
     list-style-type: none;
     display: inline-block;
     margin: 20px;
 }
 
 
-#main-header ul li a{
+#main-nav ul li a{
     color:black;
     text-decoration: none;
     border-radius: 50%;
@@ -37,7 +39,7 @@
   
 }
 
-#main-header ul li a:hover{
+#main-nav ul li a:hover{
     box-shadow: 0 0 15px rgb(0, 0,0);
 }
 
@@ -52,8 +54,8 @@
     text-align: center;
 }
 /* box contenents */
-.container .box h1{
-    font-size: 2rem;
+.container .box h2{
+    font-size: 3rem;
     text-transform: uppercase;
     font-weight: 800;
     color: yellow;
@@ -63,18 +65,18 @@
     width: 80%;
 }
 
-#yellow h1{
+#yellow-section h1{
     color:green;
 }
 
 /* background colors*/
-#red{
+.red{
     background-color: red;
 }
-#green{
+.green{
     background-color: green;
 }
-#yellow{
+.yellow{
     background-color: yellow;
     
 }
